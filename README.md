@@ -18,7 +18,7 @@ Amaze UI React 快速入门套件,基于 React,Flux,ReactRoute 及 webpack 开�
 
 ## 使用说明
 
-### 全局安装 gulp：
+### 全局安装 webpack
 
 ```
 npm install webpack -g
