@@ -1,4 +1,4 @@
-# React's Signle Application Starter Kit
+# React's Signle Page Application Starter Kit
 
 Amaze UI React 快速入门套件,基于 React,Flux,ReactRoute 及 webpack 开发Spa
 
