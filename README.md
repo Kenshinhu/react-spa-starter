@@ -10,14 +10,10 @@ Amaze UI React 快速入门套件,基于 React,Flux,ReactRoute 及 webpack 开�
 
 ```
 .app
-├── humans.txt
 ├── i              // 图片
 ├── index.html     // 入口 HTML
 ├── js             // JS
 ├── less           // Less
-├── manifest.json
-├── manifest.webapp
-└── robots.txt
 ```
 
 ## 使用说明
@@ -37,12 +33,4 @@ npm install webpack -g
 
 ```
 npm start
-```
-
-### 生产环境构建
-
-设置 Node 环境变量为 `production` 后，HTML 中引用的 CSS 和 JS 会替换为 minify 的版本。
-
-```
-npm run build
 ```
