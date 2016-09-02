@@ -18,7 +18,6 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "flux": "^2.1.1",
     "jquery": "^2.2.4",
-    "jsx-loader": "^0.13.2",
     "less": "^2.7.1",
     "less-loader": "^2.2.3",
     "object-assign": "^4.1.0",

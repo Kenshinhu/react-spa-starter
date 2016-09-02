@@ -21,11 +21,24 @@ module.exports = {
     extensions: ['', '.js', '.jsx'],
   },
   module: {
-    loaders:[
-      { test: /\.jsx$/, exclude: /node_modules/, loader: 'jsx-loader' },
-      { test: /\.js$/, exclude:/node_modules/, loader: 'babel-loader'},
-      {test: /\.less$/,loader: "style!css!less"}
-    ]
+    loaders: [{
+      test: /\.jsx$/,
+      exclude: /node_modules/,
+      loader: 'babel-loader',
+      query: {
+        presets: ['es2015', 'react']
+      }
+    }, {
+      test: /\.js$/,
+      exclude: /node_modules/,
+      loader: 'babel-loader',
+      query: {
+        presets: ['es2015']
+      }
+    }, {
+      test: /\.less$/,
+      loader: "style!css!less"
+    }]
   },
   plugins: [
     new CommonsChunkPlugin('init.js'),
